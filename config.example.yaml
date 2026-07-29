@@ -1,0 +1,16 @@
+# Copy to config.yaml and fill in. config.yaml is gitignored (holds the API key).
+
+tally:
+  host: 127.0.0.1        # real TallyPrime host; 127.0.0.1 for the local mock
+  port: 9000             # matches ServerPort in tally.ini
+  company: ""            # SVCURRENTCOMPANY name; blank = active company
+
+odoo:
+  url: https://ai-agentic-accounting.odoo.com
+  db: ai-agentic-accounting
+  username: yaravindan@gmail.com
+  api_key: PUT_YOUR_ODOO_API_KEY_HERE   # Preferences > Account Security > New API Key
+
+sync:
+  from_date: "20260101"  # Tally date format YYYYMMDD
+  to_date: "20261231"
